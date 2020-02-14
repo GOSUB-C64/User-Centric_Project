@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap');
 
 /*---------- Init ----------*/
 
@@ -13,28 +14,59 @@ body {
 
 /*---------- Logo ----------*/
 
+.myLogo {
+    padding: 0;
+    border: 0;
+    height: 175px;
+}
 
 .myLogo h1 {
     font-family: 'Luckiest Guy', sans-serif;
     color: #e1ad01;
-    font-size: 4em;
+    font-size: 6em;
     letter-spacing: 4px;
     padding-top: 50px;
     padding-left: 50px;
+    padding-bottom: 0;
+    margin: 0;
+    
+}
+.myLogo p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: #e1ad01;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    position: absolute;
+    bottom: 0;
+    right: 2em;
 }
 
 /*---------- Header Images ----------*/
 
 .heroImage1 {
+    
     width: 100%;
     height: 330px;
-    background: url('../images/two-mugs.jpg') no-repeat;    
+    background: url('../images/two-mugs.jpg') no-repeat; 
+    z-index: -1;   
 }
 
 .heroImage2 {
     width: 100%;
     height: 330px;
-    background: url('../images/baguettes.jpg') no-repeat;    
+    background: url('../images/baguettes.jpg') no-repeat;   
+    z-index: -1; 
+}
+
+.opacityLayer {
+    padding-top: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    height: 25%;
+    width: 100%
+
 }
 
 /*---------- NavBar ----------*/
@@ -47,10 +79,20 @@ body {
 
 
 .myNavBar {
-    padding-top: 73px;
+    padding-top: 80px;
 }
 
 .myNavBar li {
     font-size: 1.5em;
     padding-right: 1em;
+}
+
+.cafeSlogan p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    font-size: 2em;
+    color: #e1ad01;
+    padding-top: 20px;
+    text-align: center;
+
 }
