@@ -73,8 +73,8 @@ body {
 
 .myNavBar a {
     font-family: 'Luckiest Guy', sans-serif;
-        color: #e1ad01;
-        text-decoration: none;
+    color: #e1ad01;
+    text-decoration: none;
 }
 
 
@@ -95,4 +95,30 @@ body {
     padding-top: 20px;
     text-align: center;
 
+}
+.menuName h3 {
+    font-family: 'luckiest guy', sans-serif;
+    font-size: 3em;
+    color: #e1ad01;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.menuBorder {
+    border: 1px solid #e1ad01;
+    height: 600px;
+    width: 80%;
+    margin: 0 auto;
+}
+.meat h4, .veg h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    color:#e1ad01;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.meat p {
+    font-family: 'Oswald', sans-serif;
 }
