@@ -107,8 +107,8 @@ body {
 
 .menuBorder {
     border: 1px solid #e1ad01;
-    height: 600px;
-    width: 80%;
+    height: 750px;
+    width: 90%;
     margin: 0 auto;
 }
 .meat h4, .veg h4 {
@@ -119,6 +119,23 @@ body {
     padding-top: 30px;
     padding-bottom: 20px;
 }
-.meat p {
+.meat p, .veg p {
     font-family: 'Oswald', sans-serif;
+    color: #e1ad017d;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+
+}
+.meat h5, .veg h5 {
+    font-family: 'Oswald', sans-serif;
+    color: #e1ad01;
+    text-align: center;
+}
+
+.special {
+    padding: 50px;
+    margin: 0 auto;
 }
