@@ -135,25 +135,50 @@ body {
     text-align: center;
 }
 
-.special {
-    padding-top: 50px;
-    padding-right: 50px;
-    width: 300px;
-    height: 200px;
-    font-family: 'Oswald', sans-serif;
-    color: #e1ad01;
-    text-align: left;
+/* .......specialBoard..........  */
+
+.specialBoardText {
+   max-width: 50%;
+   margin: auto 0;
+   margin-left: 3em;
+   margin-right: 0;
+   font-family: 'Oswald', sans-serif;
+   color: #e1ad01;
+
+
 }
-.special h3 {
-    text-align: left;
+
+.specialBoardText h1, h5, p {
+    text-align: center;
+
+}
+
+.specialBoardText h1 { 
+    padding-bottom: 30px;
+}
+
+.specialBoardText h5, p {
+    letter-spacing: 2px;
 }
 
 .specialImage {
-    padding-top: 250px;
-    max-width: 350px;
-    max-height: 300px;
+    max-width: 375px;
+    height: 250px;
     background: url('../images/special_panini.jpg') no-repeat;   
     z-index: -1; 
     margin: 50px 0;
-    border-radius: 20px;
+    border-radius: 30px;
 }
+
+.pageSplitter {
+    background-color: #e1ad01;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.gallery h1 {
+    font-family: 'Oswald', sans-serif;
+    color: #e1ad01;
+    text-align: center;
+}   
+
