@@ -187,7 +187,7 @@ body {
     background-size: cover;
     width: 100%;
     height: 300px;
-    /* background: url('../images/panino_sack.jpg') no-repeat center center; */
+    background: url('../images/panino_sack1.jpg') no-repeat center center;
 }
 
 .swTextPic3 {
@@ -195,5 +195,5 @@ body {
     background-size: cover;
     width: 100%;
     height: 300px;
-    /* background: url('../images/panino_sack.jpg') no-repeat center center; */
+    background: url('../images/five-doughnuts.jpg') no-repeat center center;
 }
