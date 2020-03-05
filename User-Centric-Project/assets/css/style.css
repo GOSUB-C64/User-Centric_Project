@@ -174,26 +174,52 @@ body {
     text-align: center;
 }   
 
-.swTextPic1 {
-    border: 1px solid #e1ad01;
-    background-size: cover;
-    width: 250px;
-    height: 300px;
-    background: url('../images/panino_sack1.jpg') no-repeat center center;
-}
+/* ..........pictures for photo gallery .............................. */
 
-.swTextPic2 {
+.foodPic1 {
     border: 1px solid #e1ad01;
     background-size: cover;
     width: 100%;
     height: 300px;
-    background: url('../images/panino_sack1.jpg') no-repeat center center;
+    background: url('../images/panino_sack2.jpg') no-repeat center center;
 }
 
-.swTextPic3 {
+.foodPic2 {
+    border: 1px solid #e1ad01;
+    background-size: contain;
+    width: 100px;
+    height: 300px;
+    background: url('../images/five-doughnuts.jpg')no-repeat center center;
+}
+
+.foodPic3 {
+    border: 1px solid #e1ad01;
+    background-size: contain;
+    width: 100%;
+    height: 300px;
+    background: url('../images/baguette-bread.jpg') no-repeat center center;
+}
+
+.cafePic1 {
     border: 1px solid #e1ad01;
     background-size: cover;
     width: 100%;
     height: 300px;
-    background: url('../images/five-doughnuts.jpg') no-repeat center center;
+    /* background: url('../images/panino_sack2.jpg') no-repeat center center; */
+}
+
+.cafePic2 {
+    border: 1px solid #e1ad01;
+    background-size: contain;
+    width: 100%;
+    height: 300px;
+    /* background: url('../images/baguette-bread.jpg') no-repeat center center; */
+}
+
+.cafePic3 {
+    border: 1px solid #e1ad01;
+    background-size: contain;
+    width: 100%;
+    height: 300px;
+    /* background: url('../images/five-doughnuts.jpg') no-repeat center center; */
 }
