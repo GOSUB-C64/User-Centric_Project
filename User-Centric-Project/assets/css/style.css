@@ -129,6 +129,11 @@ body {
 
 /* .......specialBoard..........  */
 
+.specialBoard {
+    padding: 0;
+    margin: 0;
+}
+
 .specialBoardText {
    max-width: 50%;
    margin: auto 0;
@@ -165,7 +170,7 @@ body {
 .pageSplitter {
     background-color: #e1ad01;
     width: 80%;
-    margin: 50px auto;
+    margin: 100px auto;
 }
 
 .gallery h1 {
@@ -253,3 +258,20 @@ body {
     background: url('../images/veggy_ciabatta.jpg') no-repeat center center;
 }
 
+.bottomGallery {
+    /* padding-bottom: 50px; */
+}
+
+
+.reviews h1 {
+    font-family: 'Oswald', sans-serif;
+    color: #e1ad01;
+    font-size: 4em;
+    text-align: center;
+}
+.reviews h3 {
+    font-family: 'Oswald', sans-serif;
+    color: #e1ad01;
+    font-size: 2em;
+    text-align: center;
+}
