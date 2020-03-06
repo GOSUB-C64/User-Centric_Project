@@ -263,15 +263,54 @@ body {
 }
 
 
-.reviews h1 {
+.reviewsHeader h1 {
     font-family: 'Oswald', sans-serif;
     color: #e1ad01;
     font-size: 4em;
     text-align: center;
 }
-.reviews h3 {
+.reviewsHeader h3 {
     font-family: 'Oswald', sans-serif;
     color: #e1ad01;
     font-size: 2em;
+    text-align: center;
+}
+
+.reviews {
+    padding-top: 100px;
+}
+
+.customerPic1 {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #e1ad01ef;
+    background: url('../images/woman1.jpg') no-repeat center right;
+}
+
+.customerPic2 {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #e1ad01ef;
+    background: url('../images/man1.jpg') no-repeat center center;
+}
+
+.customerPic3 {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #e1ad01ef;
+    background: url('../images/man2.jpg') no-repeat top right;
+}
+
+.customerPic4 {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #e1ad01ef;
+    background: url('../images/woman2.jpg') no-repeat top right;
+}
+
+.review p {
+    font-family: 'Oswald', sans-serif;
+    color: #ffc402;
+    font-size: 1.2em;
     text-align: center;
 }
