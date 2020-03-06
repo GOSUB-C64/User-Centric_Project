@@ -256,6 +256,7 @@ body {
     width: 100%;
     height: 400px;
     background: url('../images/veggy_ciabatta.jpg') no-repeat center center;
+    /* border-radius: 25px; */
 }
 
 .bottomGallery {
@@ -308,9 +309,36 @@ body {
     background: url('../images/woman2.jpg') no-repeat top right;
 }
 
+.review {
+    /* height: 150px; */
+    background:rgba(225, 173, 1, 0.3);
+}
+
 .review p {
+    height: 104px;
     font-family: 'Oswald', sans-serif;
     color: #ffc402;
     font-size: 1.2em;
     text-align: center;
+}
+
+.bookings h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 3em;
+    font-family: 'Oswald', sans-serif;
+    color:#e1ad01;
+}
+
+#fname {
+    margin-left: 20px;
+    line-height: 2em;
+}
+
+#lblName {
+    margin-left: 500px;
+    font-size: 2em;
+    font-family: 'Oswald', sans-serif;
+    color:#e1ad01;
+    margin-bottom: 0;
 }
