@@ -322,6 +322,10 @@ body {
     text-align: center;
 }
 
+.bookings {
+    text-align: center;
+}
+
 .bookings h1 {
     text-align: center;
     padding-bottom: 50px;
@@ -330,13 +334,19 @@ body {
     color:#e1ad01;
 }
 
-#fname {
+#fname, #email, #phone {
+    width: 30%;
+    letter-spacing: .5em;
     margin-left: 20px;
     line-height: 2em;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    color: #000;
 }
 
-#lblName {
-    margin-left: 500px;
+#inputBox {
+    text-align: center;
     font-size: 2em;
     font-family: 'Oswald', sans-serif;
     color:#e1ad01;
