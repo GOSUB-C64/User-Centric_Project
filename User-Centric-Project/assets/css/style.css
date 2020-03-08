@@ -256,12 +256,8 @@ body {
     width: 100%;
     height: 400px;
     background: url('../images/veggy_ciabatta.jpg') no-repeat center center;
-    /* border-radius: 25px; */
 }
 
-.bottomGallery {
-    /* padding-bottom: 50px; */
-}
 
 
 .reviewsHeader h1 {
@@ -322,33 +318,65 @@ body {
     text-align: center;
 }
 
-.bookings {
-    text-align: center;
-}
+/* ...........form.................. */
 
 .bookings h1 {
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 25px; 
     font-size: 3em;
     font-family: 'Oswald', sans-serif;
     color:#e1ad01;
 }
 
-#fname, #email, #phone {
-    width: 30%;
-    letter-spacing: .5em;
-    margin-left: 20px;
-    line-height: 2em;
+/* style form labels and fields */
+
+#fname, #email, #phone, #submit {
+    width: 100%;
+    letter-spacing: .25em;
+    margin-bottom: 15px;
     font-family: 'Oswald', sans-serif;
     font-size: 1em;
-    font-weight: 700;
     color: #000;
 }
 
-#inputBox {
-    text-align: center;
-    font-size: 2em;
+#inputLabel {
+    font-size: 1.4em;
     font-family: 'Oswald', sans-serif;
     color:#e1ad01;
-    margin-bottom: 0;
+    margin: 0;
+    margin-left: 10px;
+}
+
+#submit {
+    width: 25%;
+    margin-top: 30px;
+    padding: 5px;
+}
+
+/*..... form icons ......*/
+
+.fa-user-alt,
+.fa-envelope,
+.fa-phone-square-alt {
+    line-height: 1.4em;
+    color: #e1ad01;
+}
+
+/* ........end of form................. */
+
+/* location */
+
+.h1_resized {
+    font-family: 'Oswald', sans-serif;
+    color: #e1ad01;
+    text-align: center;
+
+}
+
+.location {
+        width: 600px;
+        height: 400px;
+        background: url('../images/streetmap.jpg') no-repeat center center;
+        margin-top: 30px;
+
 }
