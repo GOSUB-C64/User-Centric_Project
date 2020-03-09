@@ -367,9 +367,10 @@ body {
 /* location */
 
 .h1_resized {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Luckiest Guy', sans-serif;
     color: #e1ad01;
     text-align: center;
+    letter-spacing: 3px;
 
 }
 
@@ -378,5 +379,31 @@ body {
         height: 400px;
         background: url('../images/streetmap.jpg') no-repeat center center;
         margin-top: 30px;
+        /* border: 1px solid #e1ad01; */
+        
 
+}
+
+.locAdd p, .opening p {
+    font-family: 'Luckiest Guy', sans-serif;
+    color: #e1ad01; 
+    font-size: 2em;
+}
+
+.locAdd, .opening {
+    padding-top: 20px;
+}
+
+.social ul {
+    text-align: center;
+}
+
+.social li {
+    display: inline;
+}
+
+.social i {
+    font-size: 3em;
+    color: #e1ad01;
+    margin: 20px;
 }
