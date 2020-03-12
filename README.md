@@ -24,5 +24,35 @@ place their order.
 
 The wireframe for this project is in the wireframes folder of this project.
  https://gosub-c64.github.io/User-Centric_Project/wireframes/user-centric-frontend-project.pdf
- 
+
+# Features
+
+### existing Features
+
+* booking feature at the bottom of the site and accessed via the nav bar link at the top allows 
+  the user to reserve a table by getting in contact with the cafe. **(backend needs implemented)**
+
+* also there are sample pictures of items that are available on the menu to tantilize the tastebuds.
+
+**Additional features I'd like to implement at a later date ...**
+ * An "in-house" online ordering system thereby cutting down on waiting times
+ * A delivery service available to where people reside or work
+
+ # Technologies Used..
+
+ * HTML5 - to design the basic layout
+
+ * CSS3 - to style the HTML
+
+ * Bootstrap 4.0 - to make the layout design easier and to style the site. [Bootstrap](https://getbootstrap.com/)
+
+ * Balsamiq - for "roughing out" the website concept using wireframes.[Balsamiq](https://balsamiq.com/wireframes/google-drive/)
+
+ * Google Fonts - for the usuability of different fonts to style webpages.[Google Fonts](https://fonts.google.com/)
+
+ * Font Awesome - to use a range of free icons to make the site more intuitive[Font Awesome](https://fontawesome.com/)
+
+
+
+ # Testing
 
