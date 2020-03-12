@@ -66,8 +66,12 @@ body {
     font-family: 'Luckiest Guy', sans-serif;
     color: #e1ad01;
     text-decoration: none;
+    font-size: 2em;
 }
 
+.myNavBar a:hover {
+    color: #e1ad016f;
+}
 
 .myNavBar {
     padding-top: 80px;
@@ -75,7 +79,7 @@ body {
 }
 
 .myNavBar li {
-    font-size: 1.5em;
+    /* font-size: 2em; */
     padding-right: 1em;
 }
 
@@ -88,9 +92,9 @@ body {
     text-align: center;
 
 }
-.menuName h3 {
+.menuName h2 {
     font-family: 'luckiest guy', sans-serif;
-    font-size: 3em;
+    font-size: 4em;
     color: #e1ad01;
     text-align: center;
     padding-top: 50px;
@@ -387,7 +391,8 @@ body {
 .locAdd p, .opening p {
     font-family: 'Luckiest Guy', sans-serif;
     color: #e1ad01; 
-    font-size: 2em;
+    font-size: 1.3em;
+    padding-top: 15px;
 }
 
 .locAdd, .opening {
@@ -406,4 +411,10 @@ body {
     font-size: 3em;
     color: #e1ad01;
     margin: 20px;
+}
+
+.copyRight {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    color: #e1ad01;
 }
