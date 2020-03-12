@@ -1,4 +1,4 @@
-# User-Centric-FrontEnd Project
+# User-Centric FrontEnd-Project
 
 ## Cafe Panino
 - An imaginary Italian-style cafe website selling real Italian coffees and authentic homemade Italian breads

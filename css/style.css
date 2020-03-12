@@ -38,7 +38,6 @@ body {
     font-size: 1.1em;
     letter-spacing: 0.2em;
     text-align: center;
-    padding-bottom: 20px;
 }
 
 /*---------- Header Image ----------*/
@@ -49,6 +48,7 @@ body {
     background: url('../images/two-mugs.jpg') no-repeat center center; 
     background-size:  cover;
     z-index: -1;
+    margin-top: 20px;
 }
 
  .opacityLayer {
@@ -73,13 +73,13 @@ body {
 }
 
 .myNavBar {
-    padding-top: 80px;
-    padding-right: 50px;
-    text-align: right;
+    padding-top: 50px;
+    text-align: left;
 }
 
 .myNavBar li {
     padding-right: 1em;
+    padding-left: 0;
 }
 
 /* .......cafe slogan ...........*/
@@ -379,24 +379,28 @@ body {
     letter-spacing: 3px;
 
 }
+.locationHours {
+    /* display: block; */
+}
 
-.location {
-        width: 600px;
-        height: 400px;
-        background: url('../images/streetmap.jpg') no-repeat center center;
-        margin-top: 30px;
-        /* border: 1px solid #e1ad01; */
+.streetMap {
+    display: block;
+    border: 2px solid #ffc402;
+    margin: 0 auto 30px auto;
+
+
 }
 
 .locAdd p, .opening p {
-    font-family: 'Luckiest Guy', sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: #e1ad01; 
     font-size: 1.3em;
-    padding-top: 15px;
+    font-weight: 600;
+    margin: 0;
 }
 
 .locAdd, .opening {
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
 
 .social ul {
