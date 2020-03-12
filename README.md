@@ -23,4 +23,6 @@ place their order.
 ### Wireframe of Project
 
 The wireframe for this project is in the wireframes folder of this project.
- https://gosub-c64.github.io/User-Centric_Project/wireframes/user-centric frontend project.bmpr
+ https://gosub-c64.github.io/User-Centric_Project/wireframes/user-centric-frontend-project.pdf
+ 
+
