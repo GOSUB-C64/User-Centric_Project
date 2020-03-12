@@ -1,35 +1,26 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# User-Centric-FrontEnd Project
 
-Welcome Chris Curran,
+## Cafe Panino
+- An imaginary Italian-style cafe website selling real Italian coffees and authentic homemade Italian breads
+  with a broad choice of Italian flavours, aromas and textures all sourced from Italy herself!
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+### Overview
+This website is for people who are hungry from the breakfast hours to the late afternoon.
+It exists to cater for those who like and enjoy Italian sandwiches and coffee and for those who'd like to sample
+the experience for the first time.
 
-## Gitpod Reminders
+# UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+When a user lands at the website they are greeted with the name of the cafe and a big inviting image of a freshly
+made cup of coffee with the promise that they will receive an Italian dining experience. Also there is the navigation menu 
+just above the image with options to see the sandwich menu items available, look at some of the top sellers, read past 
+customers' comments, take a pre-order booking and also how to reach and contact the cafe.
+The nav menu is easily readable and when clicked on will take the user directly to their chosen section. I decided to keep 
+the entire site scrollable with no seperate page links as this will keep the users' attention so that they can achieve their 
+goal which is to pre-choose what they want to eat then have the option to come to the cafe or contact via email or phone to 
+place their order.
 
-`python3 -m http.server`
+### Wireframe of Project
 
-A blue button should appear to click: *Expose*,
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Expose*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+The wireframe for this project is in the wireframes folder of this project.
+ https://gosub-c64.github.io/User-Centric_Project/wireframes/user-centric frontend project.bmpr
