@@ -43,7 +43,7 @@ body {
 
 /*---------- Header Image ----------*/
 
-.heroImage1 {
+.heroImage {
     height: 600px;
     width: 100%;
     background: url('../images/two-mugs.jpg') no-repeat center center; 
@@ -91,6 +91,7 @@ body {
     padding-right: 1em;
     padding-left: 0;
 }
+
 
 /* .......cafe slogan ...........*/
 
@@ -443,16 +444,20 @@ body {
     color: #e1ad01;
 }
 
-@media screen and (max-width: 1394px){
+@media screen and (max-width: 1424px) {
     .myLogo h1 {
         text-align: center;
-        /* margin: auto 0; */
+    }
+
+    .headings {
+        margin: 0 auto;
+        text-align: center;
     }
 }
 
-@media screen and (max-width: 800px){
+/* @media screen and (max-width: 800px){
     .myLogo h1 {
         text-align: center;
-        /* margin: auto 0; */
+
     }
-}
+} */
