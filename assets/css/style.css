@@ -61,11 +61,11 @@ body {
 
 /*---------- NavBar ----------*/
 
-.navbar-default, .navbar-toggle, .icon-bar {
-    background-color: #ffc402 !important;
+.navbar-dark {
+    color: #ffc402 !important;
 }
 
-.myNavBar a {
+.myNavBar a, navbar-dark {
     font-family: 'Luckiest Guy', sans-serif;
     color: #e1ad01;
     text-decoration: none;
