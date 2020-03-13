@@ -18,7 +18,7 @@ body {
     padding: 0;
     border: 0;
     /* height: 130px; */
-    width: 50%;
+    /* width: 50%; */
 }
 
 .myLogo h1 {
@@ -62,20 +62,12 @@ body {
 
 /*---------- NavBar ----------*/
 
-/* .nav-link {
-    color: #ffc402 !important;
-} */
-
 .myNavBar a {
     font-family: 'Luckiest Guy', sans-serif;
     color: #e1ad01 !important;
     text-decoration: none;
     font-size: 1.5em;
 }
-
-/* .nav-link:hover {
-    color: #e1ad016f !important;
-} */
 
 .myNavBar a:hover {
     color: #e1ad016f !important;
@@ -84,7 +76,7 @@ body {
 .myNavBar {
     padding-top: 50px;
     text-align: left;
-    width: 50%;
+    /* width: 50%; */
 }
 
 .myNavBar li {
@@ -446,18 +438,28 @@ body {
 
 @media screen and (max-width: 1424px) {
     .myLogo h1 {
-        text-align: center;
+        /* text-align: center; */
+        color: green;
+        
     }
-
-    .headings {
-        margin: 0 auto;
-        text-align: center;
-    }
+    
 }
 
-/* @media screen and (max-width: 800px){
-    .myLogo h1 {
-        text-align: center;
-
+@media screen and (max-width: 800px) {
+    .navbar{
+        text-align: center; 
+        font-size: 0.8em;
+        
     }
-} */
+    .myNavBar li {
+        padding-right: 0.3em;
+        padding-left: 0;
+    }
+
+    .myLogo h1 {
+        margin: 0 auto;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
