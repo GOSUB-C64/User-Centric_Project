@@ -17,7 +17,8 @@ body {
 .myLogo {
     padding: 0;
     border: 0;
-    height: 130px;
+    /* height: 130px; */
+    width: 50%;
 }
 
 .myLogo h1 {
@@ -61,24 +62,29 @@ body {
 
 /*---------- NavBar ----------*/
 
-.navbar-dark {
+/* .nav-link {
     color: #ffc402 !important;
-}
+} */
 
-.myNavBar a, navbar-dark {
+.myNavBar a {
     font-family: 'Luckiest Guy', sans-serif;
-    color: #e1ad01;
+    color: #e1ad01 !important;
     text-decoration: none;
     font-size: 1.5em;
 }
 
+/* .nav-link:hover {
+    color: #e1ad016f !important;
+} */
+
 .myNavBar a:hover {
-    color: #e1ad016f;
+    color: #e1ad016f !important;
 }
 
 .myNavBar {
     padding-top: 50px;
     text-align: left;
+    width: 50%;
 }
 
 .myNavBar li {
@@ -155,6 +161,7 @@ body {
    margin-right: 0;
    font-family: 'Oswald', sans-serif;
    color: #e1ad01;
+   
 }
 
 .specialBoardText h1, h5, p {
@@ -165,8 +172,16 @@ body {
     padding-bottom: 30px;
 }
 
+.specialBoardText h1, h5 {
+    text-transform: uppercase;
+}
+
 .specialBoardText h5, p {
+    font-size: 1.2em;
     letter-spacing: 2px;
+}
+.specialBoardText p {
+    color: #e1ad01ef;
 }
 
 .specialImage {
@@ -176,6 +191,7 @@ body {
     z-index: -1; 
     margin: 50px 0;
     border-radius: 30px;
+    border: 1px solid #ffc402;
 }
 
 .pageSplitter {
@@ -425,4 +441,18 @@ body {
     font-family: 'Oswald', sans-serif;
     font-size: 1em;
     color: #e1ad01;
+}
+
+@media screen and (max-width: 1394px){
+    .myLogo h1 {
+        text-align: center;
+        /* margin: auto 0; */
+    }
+}
+
+@media screen and (max-width: 800px){
+    .myLogo h1 {
+        text-align: center;
+        /* margin: auto 0; */
+    }
 }
