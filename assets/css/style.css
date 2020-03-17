@@ -6,10 +6,15 @@
 
 *{
     padding: 0;
+    margin: 0;
 
 }
 body {
     background-color: #000;
+}
+
+.container {
+    text-align: center;
 }
 
 /*---------- Logo ----------*/
@@ -17,7 +22,7 @@ body {
 .myLogo {
     padding: 0;
     border: 0;
-    width: 50%;
+    /* width: 50%; */
 }
 
 .myLogo h1 {
@@ -26,7 +31,6 @@ body {
     font-size: 4em;
     letter-spacing: 4px;
     padding-top: 50px;
-    /* text-align: center; */
     padding-bottom: 0;
     margin: 0;
     
@@ -37,18 +41,25 @@ body {
     color: #e1ad01;
     font-size: 1.1em;
     letter-spacing: 0.2em;
-    text-align: center;
+    /* text-align: center; */
 }
 
 /*---------- Header Image ----------*/
+
+#hero {
+    padding: 0;
+    margin: 0;
+}
 
 .heroImage {
     height: 600px;
     width: 100%;
     background: url('../images/two-mugs.jpg') no-repeat center center; 
-    background-size:  cover;
+    background-size: cover;
     z-index: -1;
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    margin: 0;
+    padding: 0;
 }
 
  .opacityLayer {
@@ -439,31 +450,33 @@ body {
 
 @media screen and (max-width: 1424px) {
     .myLogo h1 {
-        text-align: center;
-        color: green;
-        
-    }
-    .myLogo p {
-        text-align: center;
-    }
-    
+        color: rgb(0, 0, 128);
+        font-size: 3em; 
+    }  
+
+    .navbar a {
+        font-size: 1em;
+    } 
 }
 
 @media screen and (max-width: 800px) {
-    .navbar{
-        text-align: center; 
+    .navbar a {
+        /* text-align: center;  */
         font-size: 0.8em;
         
     }
     .myNavBar li {
         padding-right: 0.3em;
         padding-left: 0;
-    }
+    } 
 
     .myLogo h1 {
-        margin: 0 auto;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    } 
+        color: rgb(241, 11, 80);
+        font-size: 2em;
+        
+    }  
 }  
+
+@media screen and (max-width: 800px) {
+    
+}
