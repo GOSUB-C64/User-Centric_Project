@@ -284,6 +284,7 @@ body {
 
 .customerPic1 {
     border: 1px solid #e1ad01ef;
+    max-width: 100%;
 }
 
 .customerPic2 {
@@ -309,6 +310,7 @@ body {
 
 .review {
     background:rgba(225, 173, 1, 0.3);
+    /* height: 50%; */
 }
 
 .review p {
@@ -316,7 +318,8 @@ body {
     font-family: 'Oswald', sans-serif;
     color: #ffc402;
     font-size: 1.2em;
-    text-align: center;
+    /* text-align: center; */
+    margin: auto 0;
 }
 
 /* ...........form.................. */
