@@ -18,6 +18,10 @@ body {
     padding: 0;
 }
 
+.content {
+    flex: 1 0 auto;
+}
+
 /*---------- Logo ----------*/
 
 .myLogo {
@@ -213,76 +217,50 @@ body {
 
 .foodPic1 {
     border: 1px solid #e1ad01;
-    background-size: cover;
-    width: 100%;
-    height: 400px;
-    background: url('../images/panino_sack2.jpg') no-repeat center right;
+    background-size: contain;
     transform: scaleX(-1);
 }
 
 .foodPic2 {
     border: 1px solid #e1ad01;
     background-size: cover;
-    width: 100%;
-    height: 400px;
-    background: url('../images/five-doughnuts.jpg') no-repeat center center;
-}
+    }
 
 .foodPic3 {
     border: 1px solid #e1ad01;
-    background-size: contain;
-    width: 100%;
-    height: 400px;
-    background: url('../images/baguette-bread.jpg') no-repeat center center;
-}
+    background-size: cover;
+    }
 
 .cafePic1 {
     border: 1px solid #e1ad01;
     background-size: cover;
-    width: 100%;
-    height: 400px;
-    background: url('../images/woman-inside.jpg') no-repeat center center;
     transform: scaleX(-1);
 }
 
 .cafePic2 {
     border: 1px solid #e1ad01;
-    background-size: contain;
-    width: 100%;
-    height: 400px;
-    background: url('../images/coffee-bar.jpg') no-repeat center center;
-}
+    background-size: cover;
+    }
 
 .cafePic3 {
     border: 1px solid #e1ad01;
-    width: 100%;
-    height: 400px;
-    background: url('../images/coffee-maker.jpg') no-repeat center center;
-}
+    background-size: cover;
+    }
 
 .foodPic4 {
     border: 1px solid #e1ad01;
     background-size: cover;
-    width: 100%;
-    height: 400px;
-    background: url('../images/egg-sandwich.jpg') no-repeat center center;
-}
+    }
 
 .foodPic5 {
     border: 1px solid #e1ad01;
     background-size: cover;
-    width: 100px;
-    height: 400px;
-    background: url('../images/sandwich-sticks.jpg') no-repeat center right;
-}
+    }
 
 .foodPic6 {
     border: 1px solid #e1ad01;
-    background-size: contain;
-    width: 100%;
-    height: 400px;
-    background: url('../images/veggy_ciabatta.jpg') no-repeat center center;
-}
+    background-size: cover;
+    }
 
 /* ....... customer reviews section ............*/
 
@@ -408,7 +386,7 @@ body {
     display: block;
     border: 2px solid #ffc402;
     margin: 0 auto 30px auto;
-
+    width: 100%;
 
 }
 
