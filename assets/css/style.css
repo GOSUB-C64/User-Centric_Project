@@ -156,24 +156,33 @@ body {
 
 .specialBoard {
     padding: 0;
-    margin: 0;
+    
+    text-align: center;
+    margin: 0 auto;
+}
+
+.headerSpecialBoard h1 {
+    font-family: 'Luckiest Guy', sans-serif;
+    font-size: 4em;
+    color: #e1ad01;
+    text-align: center;
+    padding-top: 80px;
 }
 
 .specialBoardText {
-   max-width: 50%;
    margin: auto 0;
-   margin-left: 3em;
    margin-right: 0;
    font-family: 'Oswald', sans-serif;
    color: #e1ad01;
    
 }
 
-.specialBoardText h1, h5, p {
+.specialBoardText h1, p {
     text-align: center;
 }
 
 .specialBoardText h1 { 
+    padding-top: 20px;
     padding-bottom: 30px;
 }
 
@@ -181,20 +190,22 @@ body {
     text-transform: uppercase;
 }
 
-.specialBoardText h5, p {
-    font-size: 1.2em;
+.specialBoardText p {
+    font-size: 1.6em;
     letter-spacing: 2px;
+    margin-left: 20px;
+    padding: 40px;
 }
 .specialBoardText p {
     color: #e1ad01ef;
 }
 
 .specialImage {
-    max-width: 375px;
-    height: 250px;
-    background: url('../images/special_panini.jpg') no-repeat;   
-    z-index: -1; 
-    margin: 50px 0;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#specialPanini {
     border-radius: 30px;
     border: 1px solid #ffc402;
 }
@@ -448,6 +459,20 @@ body {
     }  
     .myLogo p {
         letter-spacing: 1px;
+    }
+
+    .specialBoardText {
+        margin: 0 auto;
+    }
+
+    .specialBoardText h1 {
+        padding: 20px;
+    }
+
+    .specialImage {
+        text-align: center;
+        padding-bottom: 0;
+        margin-bottom: 0;
     }
 }  
 

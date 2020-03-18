@@ -127,17 +127,22 @@
 
 		</section>
 		<section class="container-fluid">
-			<div class="row specialBoard">
+        <div class="row">
+            <div class="col-12 headerSpecialBoard">
+                <h1>Today's Special</h1>
+            </div>
+        </div>
+			<div class="row no-gutters specialBoard">
 				<div class="col-md-6 specialBoardText">
-					<h1>Today's Special</h1>
-					<h5>Salami Panino</h5>
-					<p>Milanese salami in a toasted panino with sun-blushed tomatoes</p>
-					<p>black olive tapenade, rocket and gorgonzola cheese</p>
+					
+					<h1>The Salami Panino</h1>
+					<p>Milanese salami in a toasted panino with sun-blushed tomatoes
+					    black olive tapenade, rocket and gorgonzola cheese</p>
 				</div>
 				<div class="col-md-6 specialImage">
+                    <img id="specialPanini" src="assets/images/special_panini.jpg" width="75%" height="100%">
 				</div>
 			</div>
-
 		</section>
 		<!-- Gallery -->
 		<section class="container-fluid">
@@ -152,43 +157,43 @@
 					<img src="assets/images/panino_sack2.jpg" width="100%" height="400px">
 				</div>
 
-					<div class="col-md-4  col-sm-12 foodPic2">
-						<img src="assets/images/five-doughnuts.jpg" width="100%" height="400px">
+				<div class="col-md-4  col-sm-12 foodPic2">
+					<img src="assets/images/five-doughnuts.jpg" width="100%" height="400px">
 				</div>
 
-						<div class="col-md-4 col-sm-12 foodPic3">
-							<img src="assets/images/baguette-bread.jpg" width="100%" height="400px">
+				<div class="col-md-4 col-sm-12 foodPic3">
+					<img src="assets/images/baguette-bread.jpg" width="100%" height="400px">
 				</div>
 
-						</div>
+			</div>
 
-						<div class="row">
-							<div class="col-md-4 col-sm-12 cafePic1">
-								<img src="assets/images/woman-inside.jpg" width="100%" height="400px">
-				</div>
+            <div class="row">
+                <div class="col-md-4 col-sm-12 cafePic1">
+                    <img src="assets/images/woman-inside.jpg" width="100%" height="400px">
+                </div>
 
-								<div class="col-md-4 col-sm-12 cafePic2">
-									<img src="assets/images/coffee-bar.jpg" width="100%" height="400px">
-				</div>
+                <div class="col-md-4 col-sm-12 cafePic2">
+                    <img src="assets/images/coffee-bar.jpg" width="100%" height="400px">
+                </div>
 
-									<div class="col-md-4 col-sm-12 cafePic3">
-										<img src="assets/images/coffee-maker.jpg" width="100%" height="400px">
-				</div>
-									</div>
+                <div class="col-md-4 col-sm-12 cafePic3">
+                    <img src="assets/images/coffee-maker.jpg" width="100%" height="400px">
+                </div>
+            </div>
 
-									<div class="row bottomGallery">
-										<div class="col-md-4 col-sm-12 foodPic4">
-											<img src="assets/images/egg-sandwich.jpg" width="100%" height="400px">
-				</div>
+            <div class="row bottomGallery">
+                <div class="col-md-4 col-sm-12 foodPic4 d-none d-md-block">
+                    <img src="assets/images/egg-sandwich.jpg" width="100%" height="400px">
+                </div>
 
-											<div class="col-md-4 col-sm-12 foodPic5">
-												<img src="assets/images/sandwich-sticks.jpg" width="100%" height="400px">
-				</div>
+                <div class="col-md-4 col-sm-12 foodPic5 d-none d-md-block">
+                    <img src="assets/images/sandwich-sticks.jpg" width="100%" height="400px">
+                </div>
 
-												<div class="col-md-4 col-sm-12 foodPic6">
-													<img src="assets/images/veggy_ciabatta.jpg" width="100%" height="400px">
-				</div>
-												</div>
+                <div class="col-md-4 col-sm-12 foodPic6 d-none d-md-block">
+                    <img src="assets/images/veggy_ciabatta.jpg" width="100%" height="400px">
+                </div>
+            </div>
 
 		</section>
 
@@ -236,25 +241,25 @@
 
 						<div class="col-md-1 customerPic">
 							<img src="assets/images/man2.jpg">
+					    </div>
+						<div class="col-md-7 review">
+							<p> "You gotta check out the Meat Stacker here ... that spicy marinara sauce is off the
+								hook!"
+							</p>
+						</div>
 					</div>
-							<div class="col-md-7 review">
-								<p> "You gotta check out the Meat Stacker here ... that spicy marinara sauce is off the
-									hook!"
-								</p>
+					<div class="row no-gutters avatar">
+					<!-- empty div to position the others -->
+					    <div class="col-md-2"></div>
+
+						<div class="col-md-1 customerPic">
+							<img src="assets/images/woman2.jpg">
+					    </div>
+						<div class="col-md-7 review">
+							<p> "I love coming here with my friends.
+								Its a great atmosphere and the food is always consistent!"</p>
 							</div>
 						</div>
-						<div class="row no-gutters avatar">
-							<!-- empty div to position the others -->
-							<div class="col-md-2"></div>
-
-							<div class="col-md-1 customerPic">
-								<img src="assets/images/woman2.jpg">
-					</div>
-								<div class="col-md-7 review">
-									<p> "I love coming here with my friends.
-										Its a great atmosphere and the food is always consistent!"</p>
-								</div>
-							</div>
 
 		</section>
 
@@ -283,7 +288,7 @@
 						<label for="phone" class="inputLabel">Phone</label><br>
 						<input type="text" name="Number"  id="phone" placeholder="Phone Number"><br>
 						<input type="submit" id="submit" value="Send">
-				</form>
+			    	</form>
 				</div>
 				<div class="col-md-4"></div>
 			</div>
@@ -307,31 +312,32 @@
 			<div class="row locationHours">
 				<div class="col-md-6 location">
 					<!-- location map of cafe goes here -->
-					<img class="streetMap" src="assets/images/streetmap.jpg" width="500" height="350">
-			</div>
+				    <img class="streetMap" src="assets/images/streetmap.jpg" width="500" height="350">
+			    </div>
 
-					<div class="col-md-6 opening">
-						<p> Sunday 9am - 5pm </p><br>
-						<p> Monday 9am - 5pm </p><br>
-						<p> Tuesday 9am - 5pm </p><br>
-						<p> Wednesday 9am - 5pm </p><br>
-						<p> Thursday 9am - 5pm </p><br>
-						<p> Friday 9am - 6pm </p><br>
-						<p> Saturday 9am - 6pm </p>
-					</div>
-				</div>
-				<div class="row">
-					<!-- location address -->
-					<div class="col-md-6 locAdd">
-						<p>Cafe Panino <br>
-                   186 Clarendon St.<br>
-                   Tel: 02871 261439</p>
-					</div>
+                <div class="col-md-6 opening">
+                    <p> Sunday 9am - 5pm </p><br>
+                    <p> Monday 9am - 5pm </p><br>
+                    <p> Tuesday 9am - 5pm </p><br>
+                    <p> Wednesday 9am - 5pm </p><br>
+                    <p> Thursday 9am - 5pm </p><br>
+                    <p> Friday 9am - 6pm </p><br>
+                    <p> Saturday 9am - 6pm </p>
+                </div>
+            </div>
+            <div class="row">
+                <!-- location address -->
+                <div class="col-md-6 locAdd">
+                    <p>Cafe Panino <br>
+                186 Clarendon St.<br>
+                Tel: 02871 261439</p>
+                </div>
 
-					<div class="col-md-6">
+                <div class="col-md-6">
 
-					</div>
-				</div>
+                </div>
+            </div>
+                
 		</section>
 	</main>
 	<hr class="pageSplitter">
@@ -345,12 +351,18 @@
 					<li><a href="http://www.facebook.com" target="_blank">
 							<i class="fab fa-facebook-square"></i></a>
 					</li>
-					<li><a href="http://www.instagram.com" target="_blank"> <i class="fab fa-instagram"></i></a>
+					<li><a href="http://www.instagram.com" target="_blank"> 
+                            <i class="fab fa-instagram"></i></a>
 					</li>
-					<li><a href="http://www.twitter.com" target="_blank"> <i class="fab fa-twitter-square"></i></a>
+					<li><a href="http://www.twitter.com" target="_blank"> 
+                            <i class="fab fa-twitter-square"></i></a>
 					</li>
-					<li><a href="http://www.google.com" target="_blank"> <i class="fab fa-google"></i></a></li>
-					<li><a href="http://www.linkedin.com" target="_blank"> <i class="fab fa-linkedin"></i></a></li>
+					<li><a href="http://www.google.com" target="_blank"> 
+                            <i class="fab fa-google"></i></a>
+                    </li>
+					<li><a href="http://www.linkedin.com" target="_blank"> 
+                            <i class="fab fa-linkedin"></i></a>
+                    </li>
 				</ul>
 
 			</div>
