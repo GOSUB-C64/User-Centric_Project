@@ -296,6 +296,7 @@ body {
 .customerPic {
     border: 1px solid #e1ad01ef;
     max-width: 100%;
+
 }
 
 
@@ -500,5 +501,10 @@ body {
         font-size: .75em;
         font-weight: 700;
         text-align: center;
+    }
+    .customerPic {
+        text-align: center;
+        /* width: 50%; */
+        height: 50%;
     }
 }
