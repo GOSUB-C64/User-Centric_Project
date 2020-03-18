@@ -283,10 +283,7 @@ body {
 }
 
 .customerPic1 {
-    width: 120px;
-    height: 120px;
     border: 1px solid #e1ad01ef;
-    background: url('../images/woman1.jpg') no-repeat center right;
 }
 
 .customerPic2 {
