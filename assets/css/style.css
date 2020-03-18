@@ -15,6 +15,7 @@ body {
 
 .container {
     text-align: center;
+    padding: 0;
 }
 
 /*---------- Logo ----------*/
@@ -84,7 +85,7 @@ body {
 .myNavBar {
     padding-top: 50px;
     text-align: left;
-    width: 50%;
+    /* width: 50%; */
 }
 
 .myNavBar li {
@@ -452,16 +453,28 @@ body {
     }  
 
     .navbar a {
-        font-size: 1em;
+        font-size: 1.5em;
     } 
     .myLogo p {
         letter-spacing: 0.1em;
+    }
+
+    .myNavBar li {
+        padding: 0;
+        font-size: 0.75em;
+    }
+
+    .navbar {
+        padding: 0;
+    }
+    .nav-link {
+        padding: 4px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .navbar a {
-        font-size: 0.8em;
+        font-size: 1em;
     }
 
     .myNavBar li {
@@ -471,7 +484,7 @@ body {
 
     .myLogo h1 {
         color: rgb(241, 11, 80);
-        font-size: 1.5em;
+        font-size: 2em;
     }  
     .myLogo p {
         letter-spacing: 1px;
@@ -480,8 +493,21 @@ body {
 
 @media screen and (max-width: 576px) {
     .myLogo h1 {
-        color: rgb(241, 195, 11);
-        font-size: 1em;
-        
+        color: rgb(11, 241, 187);
+        font-size: 1.5em;
+        text-align: left;
+        padding-top: 10px;
+        padding-left: 30px;
     } 
+
+    .myLogo p {
+        font-size: 0.75em;
+        text-align: left;
+        padding-left: 30px;
+        font-weight: 700;
+    }
+
+    .headings {
+        text-align: center;
+    }
 }
