@@ -510,4 +510,10 @@ body {
     .headings {
         text-align: center;
     }
+
+    .cafeSlogan p {
+        font-size: .75em;
+        font-weight: 700;
+        text-align: center;
+    }
 }
