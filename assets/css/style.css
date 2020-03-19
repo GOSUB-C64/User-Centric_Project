@@ -207,10 +207,17 @@ body {
     border: 1px solid #ffc402;
 }
 
-.pageSplitter {
+.pageSplitter-lg {
     background-color: #e1ad01;
     width: 80%;
+    height: 2px;
     margin: 100px auto;
+}
+
+.pageSplitter-sm {
+    background-color: #e1ad01;
+    width: 80%;
+    margin: 35px auto;
 }
 
 .gallery h1 {
@@ -369,9 +376,6 @@ body {
     letter-spacing: 3px;
 
 }
-.locationHours {
-    /* display: block; */
-}
 
 .streetMap {
     display: block;
@@ -389,8 +393,18 @@ body {
     margin: 0;
 }
 
-.locAdd, .opening {
-    /* padding-top: 20px; */
+.locAdd h1 {
+    text-align: center;
+    font-size: 1.9em;
+    font-family: 'Luckiest Guy', sans-serif;
+    letter-spacing: 4px;
+    color: #e1ad01; 
+    font-weight: 600;
+    margin: 0;
+}
+
+.locAdd p {
+    margin-bottom: 20px;
 }
 
 .social ul {
@@ -483,6 +497,11 @@ body {
 
 @media screen and (max-width: 576px) {
 
+    .heroImage {
+        /* max-width: 50%; */
+        /* max-height: 20%; */
+    }
+
     .myLogo h1 {
         font-size: 1.5em;
         text-align: left;
@@ -502,7 +521,7 @@ body {
     }
 
     .cafeSlogan p {
-        font-size: .75em;
+        font-size: 1.2em;
         font-weight: 700;
         text-align: center;
     }
@@ -526,9 +545,12 @@ body {
         padding-top: 40px;
     }
 
-    .customerPic {
-        /* text-align: center; */
-        /* width: 50%; */
-        /* max-height: 90%; */
+    .social li a i {
+        font-size: 1em;
+        margin: 5px;
+    }
+
+    .menuBorder {
+        width: 100%;
     }
 }
