@@ -44,6 +44,7 @@ body {
     font-weight: 700;
     color: #e1ad01;
     font-size: 1.25em;
+    text-align: center;
 }
 
 /*---------- Header Image ----------*/
@@ -85,8 +86,7 @@ body {
 
 .myNavBar {
     padding-top: 50px;
-    text-align: left;
-    /* width: 50%; */
+    text-align: center;
 }
 
 .myNavBar li {
@@ -398,19 +398,18 @@ body {
 @media screen and (max-width: 1024px) {
 
     .myLogo h1 {
-        font-size: 2.5em; 
-    }  
-
-    .navbar a {
-        font-size: 1.5em;
+        font-size: 4em; 
     } 
+
     .myLogo p {
+        font-size: 4em;
         letter-spacing: 0.1em;
     }
 
     .myNavBar li {
         padding: 0;
-        font-size: 0.75em;
+        font-size: 1.5em;
+        text-align: center;
     }
 
     .navbar {
@@ -431,6 +430,14 @@ body {
 
 @media screen and (max-width: 768px) {
 
+    .myLogo h1 {
+        font-size: 4em;
+    }  
+
+    .myLogo p {
+        font-size: 2em;
+    }
+
     .navbar a {
         font-size: 2em;
     }
@@ -439,14 +446,6 @@ body {
         padding-right: 0.3em;
         padding-left: 0;
     } 
-
-    .myLogo h1 {
-        font-size: 4em;
-    }  
-    .myLogo p {
-        font-size: 2em;
-        /* letter-spacing: 1px; */
-    }
 
     .specialBoardText {
         margin: 0 auto;
@@ -470,9 +469,9 @@ body {
         padding-left: 30px;
     } 
 
-    .myLogo p {
-        font-size: 0.75em;
-        text-align: left;
+    .myLogo h2 {
+        font-size: 1em;
+        text-align: center;
         padding-left: 30px;
         font-weight: 700;
     }
