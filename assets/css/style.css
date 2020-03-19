@@ -36,21 +36,21 @@ body {
     letter-spacing: 4px;
     padding-top: 50px;
     padding-bottom: 0;
-    margin: 0;
-    
+    margin: 0; 
 }
-.myLogo p {
+
+.myLogo h2 {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     color: #e1ad01;
-    font-size: 1.1em;
-    letter-spacing: 0.2em;
+    font-size: 1.25em;
 }
 
 /*---------- Header Image ----------*/
 .row {
     margin: 0;
 }
+
 #hero {
     padding: 0;
     margin: 0;
@@ -109,9 +109,9 @@ body {
 
 /* ...........the sandwich menu .............*/
 
-.menuName h2 {
+.menu h2 {
     font-family: 'luckiest guy', sans-serif;
-    font-size: 4em;
+    font-size: 3em;
     color: #e1ad01;
     text-align: center;
     padding-top: 50px;
@@ -311,6 +311,15 @@ body {
     padding: 5px;
 }
 
+.location h1, .opening h1 {
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 4em;
+    text-align: center;
+    color: #e1ad01;
+    padding-bottom: 50px;
+}
+
 /*..... form icons ......*/
 
 .fa-user-alt,
@@ -322,9 +331,11 @@ body {
 
 /* ....... end of form ................ */
 
+.opening-sm
+
 /*......... contact section ..............*/
 
-.h1_resized {
+.h1-resized {
     font-family: 'Luckiest Guy', sans-serif;
     color: #e1ad01;
     text-align: center;
@@ -340,7 +351,7 @@ body {
 
 }
 
-.locAdd p, .opening p {
+.locAdd p, .opening p , .opening-sm {
     font-family: 'Oswald', sans-serif;
     color: #e1ad01; 
     font-size: 1.3em;
@@ -387,7 +398,7 @@ body {
 @media screen and (max-width: 1024px) {
 
     .myLogo h1 {
-        font-size: 3em; 
+        font-size: 2.5em; 
     }  
 
     .navbar a {
@@ -421,7 +432,7 @@ body {
 @media screen and (max-width: 768px) {
 
     .navbar a {
-        font-size: 1em;
+        font-size: 2em;
     }
 
     .myNavBar li {
@@ -430,10 +441,11 @@ body {
     } 
 
     .myLogo h1 {
-        font-size: 2em;
+        font-size: 4em;
     }  
     .myLogo p {
-        letter-spacing: 1px;
+        font-size: 2em;
+        /* letter-spacing: 1px; */
     }
 
     .specialBoardText {
@@ -452,8 +464,8 @@ body {
 @media screen and (max-width: 576px) {
 
     .myLogo h1 {
-        font-size: 1.5em;
-        text-align: left;
+        font-size:  4em;
+        text-align: center;
         padding-top: 10px;
         padding-left: 30px;
     } 
