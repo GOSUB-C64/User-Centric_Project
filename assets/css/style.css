@@ -191,7 +191,7 @@ body {
     font-size: 1.6em;
     letter-spacing: 2px;
     margin-left: 20px;
-    padding: 40px;
+    padding: 30px 400px 0 400px;
 }
 .specialBoardText p {
     color: #e1ad01ef;
@@ -199,12 +199,8 @@ body {
 
 .specialImage {
     text-align: center;
-    padding-top: 60px;
-}
-
-#specialPanini {
     border-radius: 30px;
-    border: 1px solid #ffc402;
+    border: 2px solid #ffc402;
 }
 
 .pageSplitter-lg {
@@ -230,11 +226,11 @@ body {
 
 /* ..........pictures for photo gallery .............................. */
 
-/* .foodPics {
-    border: 1px solid #e1ad01;
-    max-width: 100%;
-    max-height: 50%;
-} */
+.foodPics {
+    border: 2px solid #e1ad01;
+    width: 95%;
+    height: 95%;
+}
 
 /* ....... customer reviews section ............*/
 
@@ -413,9 +409,10 @@ body {
         padding: 4px;
     }
 
-    .foodPics {
-        height: 50%;
+    .specialBoardText p {
+        padding: 30px 100px 0 100px;
     }
+
     .review p {
         font-size:  2em;
     }
@@ -438,9 +435,6 @@ body {
     .myLogo p {
         letter-spacing: 1px;
     }
-    .foodPics {
-        /* width: 100%; */
-    }
 
     .specialBoardText {
         margin: 0 auto;
@@ -448,11 +442,6 @@ body {
 
     .specialBoardText h1 {
         padding: 20px;
-    }
-
-    .specialImage {
-        padding-bottom: 0;
-        margin-bottom: 0;
     }
 
     .review p {
@@ -486,11 +475,6 @@ body {
         text-align: center;
     }
 
-    .foodPics {
-        /* width: 50%; */
-        /* height: 50%; */
-    }
-
     .reviewsHeader h1 {
         font-size: 2em;
     }
@@ -517,5 +501,16 @@ body {
 
     .menuBorder {
         width: 100%;
+    }
+
+    .specialBoardText p {
+        font-size: 1.3em;
+        font-weight: 700;
+        padding: 0;
+    }
+
+    .specialImage {
+        width: 100%;
+        margin-bottom: 30px;
     }
 }
