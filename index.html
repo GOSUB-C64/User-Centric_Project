@@ -145,7 +145,7 @@
 			</div>
 		</section>
 		<!-- Gallery -->
-		<section class="container-fluid">
+		<section class="container">
 			<div class="row">
 				<div class="col gallery">
 					<hr class="pageSplitter-lg d-none d-md-block">
@@ -154,45 +154,45 @@
 				</div>
 			</div>
 			<div class="row no-gutters">
-				<div class="col-lg-4 col-md-6 col-sm-12 foodPic1">
-					<img src="assets/images/panino_sack2.jpg" width="100%" height="400px">
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<img class="foodPics" src="assets/images/panino_sack2.jpg">
+				</div>
+                <!-- only show this image on screen sizes of 992px and above -->
+				<div class="col-lg-4 col-md-6 col-sm-12 d-none d-lg-block">
+					<img class="foodPics" src="assets/images/five-doughnuts.jpg">
 				</div>
 
-				<div class="col-lg-4 col-md-6 col-sm-12 d-none d-lg-block foodPic2">
-					<img src="assets/images/five-doughnuts.jpg" width="100%" height="400px">
-				</div>
-
-				<div class="col-lg-4 col-md-6 col-sm-12 foodPic3">
-					<img src="assets/images/baguette-bread.jpg" width="100%" height="400px">
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<img class="foodPics" src="assets/images/baguette-bread.jpg">
 				</div>
 
 			</div>
 
             <div class="row no-gutters">
-                <div class="col-lg-4 col-md-6 col-sm-12  cafePic1">
-                    <img src="assets/images/woman-inside.jpg" width="100%" height="400px">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img class="foodPics" src="assets/images/woman-inside.jpg">
+                </div>
+                <!-- only show this image on screen sizes of 992px and above -->
+                <div class="col-lg-4 col-md-6 col-sm-12  d-none d-lg-block">
+                    <img class="foodPics" src="assets/images/coffee-bar.jpg">
                 </div>
 
-                <div class="col-lg-4 col-md-6 col-sm-12  d-none d-lg-block cafePic2">
-                    <img src="assets/images/coffee-bar.jpg" width="100%" height="400px">
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-12  cafePic3">
-                    <img src="assets/images/coffee-maker.jpg" width="100%" height="400px">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img class="foodPics" src="assets/images/coffee-maker.jpg">
                 </div>
             </div>
 
             <div class="row no-gutters bottomGallery">
-                <div class="col-lg-4 col-md-6 col-sm-12  foodPic4">
-                    <img src="assets/images/egg-sandwich.jpg" width="100%" height="400px">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img class="foodPics" src="assets/images/egg-sandwich.jpg">
+                </div>
+                <!-- only show this image on screen sizes of 992px and above -->
+                <div class="col-lg-4 col-md-6 col-sm-12 d-none d-lg-block">
+                    <img class="foodPics" src="assets/images/sandwich-sticks.jpg">
                 </div>
 
-                <div class="col-lg-4 col-md-6 col-sm-12 d-none d-lg-block foodPic5">
-                    <img src="assets/images/sandwich-sticks.jpg" width="100%" height="400px">
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-12 foodPic6">
-                    <img src="assets/images/veggy_ciabatta.jpg" width="100%" height="400px">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img class="foodPics" src="assets/images/veggy_ciabatta.jpg">
                 </div>
             </div>
 
@@ -302,31 +302,28 @@
 		<section id="contact" class="container-fluid">
 			<hr class="pageSplitter-lg d-none d-md-block">
             <hr class="pageSplitter-sm d-block d-md-none">
+            <div class="contain-fluid">     
+                <div class="row locationHours">
+                    <div class="col-md-6 location">
 
-			<div class="row">
-				<div class="col-md-6">
-					<h1 class="h1_resized">Location</h1>
-				</div>
+                        <h1 class="h1_resized">Location</h1>
 
-				<div class="col-md-6">
-					<h1 class="h1_resized">Opening Hours</h1>
-				</div>
-			</div>
+                        <!-- location map of cafe goes here -->
+                        <img class="streetMap" src="assets/images/streetmap.jpg" width="500" height="350">
+                    </div>
 
-			<div class="row locationHours">
-				<div class="col-md-6 location">
-					<!-- location map of cafe goes here -->
-				    <img class="streetMap" src="assets/images/streetmap.jpg" width="500" height="350">
-			    </div>
+                    <div class="col-md-6 opening">
 
-                <div class="col-md-6 opening">
-                    <p> Sunday 9am - 5pm </p><br>
-                    <p> Monday 9am - 5pm </p><br>
-                    <p> Tuesday 9am - 5pm </p><br>
-                    <p> Wednesday 9am - 5pm </p><br>
-                    <p> Thursday 9am - 5pm </p><br>
-                    <p> Friday 9am - 6pm </p><br>
-                    <p> Saturday 9am - 6pm </p>
+                        <h1 class="h1_resized">Opening Hours</h1>
+
+                        <p> Sunday 9am - 5pm </p><br>
+                        <p> Monday 9am - 5pm </p><br>
+                        <p> Tuesday 9am - 5pm </p><br>
+                        <p> Wednesday 9am - 5pm </p><br>
+                        <p> Thursday 9am - 5pm </p><br>
+                        <p> Friday 9am - 6pm </p><br>
+                        <p> Saturday 9am - 6pm </p>
+                    </div>
                 </div>
             </div>
 
