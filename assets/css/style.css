@@ -85,6 +85,10 @@ body {
     /* margin: 0 !important; */
 }
 
+.myNavBar ul li {
+    text-align: center;
+}
+
 
 /* .......cafe slogan ...........*/
 
@@ -397,10 +401,9 @@ body {
         letter-spacing: 0.1em;
     }
 
-    .myNavBar li {
+    .myNavBar a {
         padding: 0;
-        font-size: 0.75em !important;
-        /* text-align: center; */
+        font-size: 1.75em;
     }
 }
 
@@ -424,9 +427,14 @@ body {
     .navbar {
         padding: 0;
     }
+
     .nav-link {
         padding: 4px;
     }
+
+    .myNavBar ul li a {
+        align-items: center;
+    }   
 
     .specialBoardText p {
         padding: 30px 100px 0 100px;
@@ -447,8 +455,8 @@ body {
         font-size: 2em;
     }
 
-    .myNavBar li {
-        /* margin: 0 auto; */
+    .myNavBar ul li a {
+        align-items: center;
     }
 
     .navbar a {
