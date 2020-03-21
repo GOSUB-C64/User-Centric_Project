@@ -53,10 +53,12 @@ body {
 }
 
 .heroImage {
-    background-size: cover;
     z-index: -1;
     margin: 0;
     padding: 0;
+    /* width: 100%; */
+    /* height: 60%; */
+    
 }
 
  .opacityLayer {
@@ -92,7 +94,7 @@ body {
 
 /* .......cafe slogan ...........*/
 
-.cafeSlogan p {
+.cafeSlogan h2 {
     font-family: 'Oswald', sans-serif;
     font-weight: 100;
     font-size: 2em;
@@ -158,7 +160,7 @@ body {
     font-size: 4em;
     color: #e1ad01;
     text-align: center;
-    padding-top: 80px;
+    /* padding-top: 80px; */
 }
 
 .specialBoardText {
@@ -460,7 +462,7 @@ body {
     }
 
     .navbar a {
-        font-size: 1em;
+        font-size: 1.5em;
         
     }
 
@@ -468,6 +470,12 @@ body {
         padding-right: 0.3em;
         padding-left: 0;
     } 
+
+    .myNavBar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     .specialBoardText {
         margin: 0 auto;
