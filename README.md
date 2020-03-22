@@ -81,4 +81,11 @@ The wireframe for this project is in the wireframes folder of this project.
 
 # Browser Tests
 
+* On Chrome all checks out and looks good.
+
+* On Firefox everything checks out and looks good.
+
+* On Opera in mobile view the main image (the welcome/hero image) is repeating. 
+
+
 

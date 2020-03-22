@@ -58,6 +58,7 @@ body {
     background-image: url("../images/two-mugs.jpg");
     background-size: 100%;
     background-position: center;
+    background-repeat: no-repeat;
     z-index: -1;
     margin: 0;
     padding: 0;
@@ -489,6 +490,11 @@ body {
         align-items: center;
     }
 
+    .heroImage {
+        height: 500px;
+        background-repeat: no-repeat;
+    }
+
     .specialBoardText {
         margin: 0 auto;
     }
@@ -528,6 +534,11 @@ body {
         font-size: 1.2em;
         font-weight: 700;
         text-align: center;
+    }
+
+    .heroImage {
+        height: 250px;
+        background-repeat: no-repeat;
     }
 
     .reviewsHeader h1 {
