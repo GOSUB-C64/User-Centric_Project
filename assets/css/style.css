@@ -3,101 +3,101 @@
 
 /*---------- Init ----------*/
 
-
-*{
-    padding: 0;
-    margin: 0;
-
+* {
+	padding: 0;
+	margin: 0;
 }
+
 body {
-    background-color: #000;
+	background-color: #000;
 }
 
 .container {
-    padding: 0;
+	padding: 0;
 }
 
 .content {
-    flex: 1 0 auto;
+	flex: 1 0 auto;
 }
+
 
 /*---------- Logo ----------*/
 
 .myLogo {
-    /* padding: 0;
+	/* padding: 0;
     border: 0; */
 }
 
 .myLogo h1 {
-    font-family: 'Luckiest Guy', sans-serif;
-    color: #e1ad01;
-    font-size: 8em;
-    letter-spacing: 4px;
-    padding-top: 50px;
-    text-align: center;
+	font-family: 'Luckiest Guy', sans-serif;
+	color: #e1ad01;
+	font-size: 8em;
+	letter-spacing: 4px;
+	padding-top: 50px;
+	text-align: center;
 }
 
 .myLogo h2 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
-    color: #e1ad01;
-    font-size: 3em;
-    text-align: center;
-    padding-bottom: 30px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	color: #e1ad01;
+	font-size: 3em;
+	text-align: center;
+	padding-bottom: 30px;
 }
+
 
 /*---------- Header Image ----------*/
 
 #hero {
-    padding: 0;
-    margin: 0;
-    
+	padding: 0;
+	margin: 0;
 }
 
 .heroImage {
-    background-image: url("../images/two-mugs.jpg");
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index: -1;
-    margin: 0;
-    padding: 0;
-    border: 1px solid #e1ad01;
-    height: 600px;
-    
+	background-image: url("../images/two-mugs.jpg");
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	z-index: -1;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #e1ad01;
+	height: 600px;
 }
 
- .opacityLayer {
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-} 
+.opacityLayer {
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
 
 /*---------- NavBar ----------*/
 
 .myNavBar a {
-    font-family: 'Luckiest Guy', sans-serif;
-    color: #e1ad01 !important;
-    text-decoration: none;
-    font-size: 2.5em;
-    
+	font-family: 'Luckiest Guy', sans-serif;
+	color: #e1ad01 !important;
+	text-decoration: none;
+	font-size: 2.5em;
 }
 
 .myNavBar a:hover {
-    color: #e1ad016f !important;
+	color: #e1ad016f !important;
 }
 
 .myNavBar {
-    padding-top: 50px;
+	padding-top: 50px;
 }
 
 .myNavBar ul li {
-    text-align: center;
+	text-align: center;
 }
 
 
 /* .......cafe slogan ...........*/
+
 
 /* .rePos {
     position: absolute;
@@ -106,477 +106,466 @@ body {
 } */
 
 .cafeSlogan h2 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 100;
-    font-size: 2em;
-    color: #e1ad01;
-    padding-top: 20px;
-    text-align: center;
-    /* position: relative; */
-    /* top: 0; */
-    
+	font-family: 'Oswald', sans-serif;
+	font-weight: 100;
+	font-size: 2em;
+	color: #e1ad01;
+	padding-top: 20px;
+	text-align: center;
+	/* position: relative; */
+	/* top: 0; */
 }
+
 
 /* ...........the sandwich menu .............*/
 
 .menu h2 {
-    font-family: 'luckiest guy', sans-serif;
-    font-size: 3em;
-    color: #e1ad01;
-    text-align: center;
-    padding-top: 50px;
+	font-family: 'luckiest guy', sans-serif;
+	font-size: 3em;
+	color: #e1ad01;
+	text-align: center;
+	padding-top: 50px;
 }
-
 
 .menuBorder {
-    border: 1px solid #e1ad01;
-    width: 90%;
-    margin: 0 auto;
+	border: 1px solid #e1ad01;
+	width: 90%;
+	margin: 0 auto;
 }
 
-.meat h4, .veg h4 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 2em;
-    color:#e1ad01;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 20px;
+.meat h4,
+.veg h4 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2em;
+	color: #e1ad01;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
 }
 
-.meat p, .veg p {
-    font-family: 'Oswald', sans-serif;
-    color: #e1ad01ef;
-    text-align: center;
-    font-weight: 400;
-    font-size: 1.2em;
-    letter-spacing: 2px;
-    text-transform: lowercase;
+.meat p,
+.veg p {
+	font-family: 'Oswald', sans-serif;
+	color: #e1ad01ef;
+	text-align: center;
+	font-weight: 400;
+	font-size: 1.2em;
+	letter-spacing: 2px;
+	text-transform: lowercase;
 }
 
-.meat h5, .veg h5 {
-    font-family: 'Oswald', sans-serif;
-    color: #e1ad01;
-    text-align: center;
+.meat h5,
+.veg h5 {
+	font-family: 'Oswald', sans-serif;
+	color: #e1ad01;
+	text-align: center;
 }
+
 
 /* .......specialBoard..........  */
 
 .specialBoard {
-    padding: 0;
-    
-    text-align: center;
-    margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	margin: 0 auto;
 }
 
 .headerSpecialBoard h1 {
-    font-family: 'Luckiest Guy', sans-serif;
-    font-size: 4em;
-    color: #e1ad01;
-    text-align: center;
-    /* padding-top: 80px; */
+	font-family: 'Luckiest Guy', sans-serif;
+	font-size: 4em;
+	color: #e1ad01;
+	text-align: center;
 }
 
 .specialBoardText {
-   margin: auto 0;
-   margin-right: 0;
-   font-family: 'Oswald', sans-serif;
-   color: #e1ad01;
-   
+	margin: auto 0;
+	margin-right: 0;
+	font-family: 'Oswald', sans-serif;
+	color: #e1ad01;
 }
 
-.specialBoardText h1, p {
-    text-align: center;
+.specialBoardText h1,
+p {
+	text-align: center;
 }
 
-.specialBoardText h1 { 
-    padding-top: 20px;
-    padding-bottom: 30px;
+.specialBoardText h1 {
+	padding-top: 20px;
+	padding-bottom: 30px;
 }
 
-.specialBoardText h1, h5 {
-    text-transform: uppercase;
+.specialBoardText h1,
+h5 {
+	text-transform: uppercase;
 }
 
 .specialBoardText p {
-    font-size: 1.6em;
-    letter-spacing: 2px;
-    margin-left: 20px;
-    padding: 30px 400px 0 400px;
+	font-size: 1.6em;
+	letter-spacing: 2px;
+	margin-left: 20px;
+	padding: 30px 400px 0 400px;
 }
+
 .specialBoardText p {
-    color: #e1ad01ef;
+	color: #e1ad01ef;
 }
 
 .specialImage {
-    text-align: center;
-    border-radius: 30px;
-    border: 2px solid #ffc402;
+	text-align: center;
+	border-radius: 30px;
+	border: 2px solid #ffc402;
 }
 
 .pageSplitter-lg {
-    background-color: #e1ad01;
-    width: 80%;
-    height: 2px;
-    margin: 100px auto;
+	background-color: #e1ad01;
+	width: 80%;
+	height: 2px;
+	margin: 100px auto;
 }
 
 .pageSplitter-sm {
-    background-color: #e1ad01;
-    width: 80%;
-    margin: 35px auto;
+	background-color: #e1ad01;
+	width: 80%;
+	margin: 35px auto;
 }
 
 .gallery h1 {
-    font-family: 'Oswald', sans-serif;
-    color: #e1ad01;
-    font-size: 4em;
-    text-align: center;
-    padding-bottom: 1em;
-}   
+	font-family: 'Oswald', sans-serif;
+	color: #e1ad01;
+	font-size: 4em;
+	text-align: center;
+	padding-bottom: 1em;
+}
+
 
 /* ..........pictures for photo gallery .............................. */
 
 .foodPics {
-    border: 2px solid #e1ad01;
-    width: 95%;
-    height: 95%;
+	border: 2px solid #e1ad01;
+	width: 95%;
+	height: 95%;
 }
+
 
 /* ....... customer reviews section ............*/
 
 .reviewsHeader h1 {
-    font-family: 'Oswald', sans-serif;
-    color: #e1ad01;
-    font-size: 4em;
-    text-align: center;
+	font-family: 'Oswald', sans-serif;
+	color: #e1ad01;
+	font-size: 4em;
+	text-align: center;
 }
 
 .reviewsHeader h3 {
-    font-family: 'Oswald', sans-serif;
-    color: #e1ad01;
-    font-size: 2em;
-    text-align: center;
+	font-family: 'Oswald', sans-serif;
+	color: #e1ad01;
+	font-size: 2em;
+	text-align: center;
 }
 
 .avatar {
-    padding-top: 100px;
+	padding-top: 100px;
 }
 
 .customerPic {
-    border: 1px solid #e1ad01ef;
-    max-width: 100%;
-
+	border: 1px solid #e1ad01ef;
+	/* width: 100%; */
+    /* background-position: left; */
+    background-repeat: no-repeat;
 }
 
+/* .customerPic2 {
+    background-image: url("../images/man1.jpg");
+    background-repeat:  no-repeat;
+    background-position: top;
+    background-size: 100%;
+    height: 250px;
+} */
 
 .review {
-    background:rgba(225, 173, 1, 0.3);
-    height: 50%;
-    text-align: center;
-    margin: auto 0;
+	background: rgba(225, 173, 1, 0.3);
+	height: 50%;
+	text-align: center;
+	margin: auto 0;
 }
 
 .review p {
-    padding: 10px 0;
-    font-family: 'Oswald', sans-serif;
-    color: #ffc402;
-    font-size: 1.2em;
-    margin: 0;
-    border: 1px solid #e1ad01;
+	padding: 10px 0;
+	font-family: 'Oswald', sans-serif;
+	color: #ffc402;
+	font-size: 1.2em;
+	margin: 0;
+	border: 1px solid #e1ad01;
 }
+
 
 /* ...........form.................. */
 
 .bookings h1 {
-    text-align: center;
-    padding-bottom: 25px; 
-    font-size: 3em;
-    font-family: 'Oswald', sans-serif;
-    color:#e1ad01;
+	text-align: center;
+	padding-bottom: 25px;
+	font-size: 3em;
+	font-family: 'Oswald', sans-serif;
+	color: #e1ad01;
 }
+
 
 /* style form labels and fields */
 
-#fname, #email, #phone, #submit {
-    width: 100%;
-    letter-spacing: .25em;
-    margin-bottom: 15px;
-    font-family: 'Oswald', sans-serif;
-    font-size: 1em;
-    color: #000;
-    padding: 5px;
+#fname,
+#email,
+#phone,
+#submit {
+	width: 100%;
+	letter-spacing: .25em;
+	margin-bottom: 15px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1em;
+	color: #000;
+	padding: 5px;
 }
 
 .inputLabel {
-    font-size: 1.4em;
-    font-family: 'Oswald', sans-serif;
-    color:#e1ad01;
-    margin: 0;
-    margin-left: 10px;
+	font-size: 1.4em;
+	font-family: 'Oswald', sans-serif;
+	color: #e1ad01;
+	margin: 0;
+	margin-left: 10px;
 }
 
 #submit {
-    width: 25%;
-    margin-top: 30px;
-    padding: 5px;
+	width: 25%;
+	margin-top: 30px;
+	padding: 5px;
 }
 
-.location h1, .opening h1 {
-
-    font-family: 'Oswald', sans-serif;
-    font-size: 4em;
-    text-align: center;
-    color: #e1ad01;
-    padding-bottom: 50px;
+.location h1,
+.opening h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 4em;
+	text-align: center;
+	color: #e1ad01;
+	padding-bottom: 50px;
 }
+
 
 /*..... form icons ......*/
 
 .fa-user-alt,
 .fa-envelope,
 .fa-phone-square-alt {
-    line-height: 1.4em;
-    color: #e1ad01;
+	line-height: 1.4em;
+	color: #e1ad01;
 }
+
 
 /* ....... end of form ................ */
 
 .opening-sm
-
 /*......... contact section ..............*/
 
 .h1-resized {
-    font-family: 'Luckiest Guy', sans-serif;
-    color: #e1ad01;
-    text-align: center;
-    letter-spacing: 3px;
-
+	font-family: 'Luckiest Guy', sans-serif;
+	color: #e1ad01;
+	text-align: center;
+	letter-spacing: 3px;
 }
 
 .streetMap {
-    display: block;
-    border: 2px solid #ffc402;
-    margin: 0 auto 30px auto;
-    width: 100%;
-
+	display: block;
+	border: 2px solid #ffc402;
+	margin: 0 auto 30px auto;
+	width: 100%;
 }
 
-.locAdd p, .opening p , .opening-sm {
-    font-family: 'Oswald', sans-serif;
-    color: #e1ad01; 
-    font-size: 1.3em;
-    font-weight: 600;
-    margin: 0;
+.locAdd p,
+.opening p,
+.opening-sm {
+	font-family: 'Oswald', sans-serif;
+	color: #e1ad01;
+	font-size: 1.3em;
+	font-weight: 600;
+	margin: 0;
 }
 
 .locAdd h1 {
-    text-align: center;
-    font-size: 1.9em;
-    font-family: 'Luckiest Guy', sans-serif;
-    letter-spacing: 4px;
-    color: #e1ad01; 
-    font-weight: 600;
-    margin: 0;
+	text-align: center;
+	font-size: 1.9em;
+	font-family: 'Luckiest Guy', sans-serif;
+	letter-spacing: 4px;
+	color: #e1ad01;
+	font-weight: 600;
+	margin: 0;
 }
 
 .locAdd p {
-    margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 .social ul {
-    text-align: center;
+	text-align: center;
 }
 
 .social li {
-    display: inline;
+	display: inline;
 }
 
 .social i {
-    font-size: 3em;
-    color: #e1ad01;
-    margin: 20px;
+	font-size: 3em;
+	color: #e1ad01;
+	margin: 20px;
 }
 
 .copyRight {
-    font-family: 'Oswald', sans-serif;
-    font-size: 1em;
-    color: #e1ad01;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1em;
+	color: #e1ad01;
 }
+
+
 /* ........................................ */
+
+
 /* ......... media queries .................*/
+
+
 /* ........................................ */
 
-@media screen  and (min-width: 1200px) {
-    .myLogo h1 {
-        font-size: 4em;
-    }
-
-    .myLogo h2 {
-        font-size: 1.5em;
-        letter-spacing: 0.1em;
-    }
-
-    .myNavBar a {
-        padding: 0;
-        font-size: 1.75em;
-    }
+@media screen and (min-width: 1200px) {
+	.myLogo h1 {
+		font-size: 4em;
+	}
+	.myLogo h2 {
+		font-size: 1.5em;
+		letter-spacing: 0.1em;
+	}
+	.myNavBar a {
+		padding: 0;
+		font-size: 1.75em;
+	}
 }
 
 @media screen and (max-width: 1024px) {
-
-    .myLogo h1 {
-        font-size: 6em; 
-    } 
-
-    .myLogo h2 {
-        font-size: 2em;
-        letter-spacing: 0.1em;
-    }
-
-    .myNavBar {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .navbar {
-        padding: 0;
-    }
-
-    .nav-link {
-        padding: 4px;
-    }
-
-    .myNavBar ul li a {
-        align-items: center;
-    }   
-
-    .specialBoardText p {
-        padding: 30px 100px 0 100px;
-    }
-
-    .review p {
-        font-size:  2em;
-    }
+	.myLogo h1 {
+		font-size: 6em;
+	}
+	.myLogo h2 {
+		font-size: 2em;
+		letter-spacing: 0.1em;
+	}
+	.myNavBar {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.navbar {
+		padding: 0;
+	}
+	.nav-link {
+		padding: 4px;
+	}
+	.myNavBar ul li a {
+		align-items: center;
+	}
+	.specialBoardText p {
+		padding: 30px 100px 0 100px;
+	}
+	.review p {
+		font-size: 2em;
+	}
 }
 
 @media screen and (max-width: 768px) {
-
-    .myLogo h1 {
-        font-size: 4em;
-    }  
-
-    .myLogo h2 {
-        font-size: 2em;
-    }
-
-    .myNavBar ul li a {
-        align-items: center;
-    }
-
-    .navbar a {
-        font-size: 1.5em;
-        
-    }
-
-    .myNavBar li {
-        padding-right: 0.3em;
-        padding-left: 0;
-    } 
-
-    .myNavBar {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .heroImage {
-        height: 500px;
-        background-repeat: no-repeat;
-    }
-
-    .specialBoardText {
-        margin: 0 auto;
-    }
-
-    .specialBoardText h1 {
-        padding: 20px;
-    }
-
-    .review p {
-        font-size: 1.75em;
-    }
-
-    
-}  
+	.myLogo h1 {
+		font-size: 4em;
+	}
+	.myLogo h2 {
+		font-size: 2em;
+	}
+	.myNavBar ul li a {
+		align-items: center;
+	}
+	.navbar a {
+		font-size: 1.5em;
+	}
+	.myNavBar li {
+		padding-right: 0.3em;
+		padding-left: 0;
+	}
+	.myNavBar {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.heroImage {
+		height: 500px;
+		background-repeat: no-repeat;
+	}
+	.specialBoardText {
+		margin: 0 auto;
+	}
+	.specialBoardText h1 {
+		padding: 20px;
+	}
+	.review p {
+		font-size: 1.75em;
+	}
+}
 
 @media screen and (max-width: 576px) {
-
-    .myLogo h1 {
-        font-size:  4em;
-        text-align: center;
-        padding-top: 10px;
-        padding-left: 30px;
-    } 
-
-    .myLogo h2 {
-        font-size: 1em;
-        text-align: center;
-        padding-left: 30px;
-        font-weight: 700;
-    }
-
-    .headings {
-        text-align: center;
-    }
-
-    .cafeSlogan p {
-        font-size: 1.2em;
-        font-weight: 700;
-        text-align: center;
-    }
-
-    .heroImage {
-        height: 250px;
-        background-repeat: no-repeat;
-    }
-
-    .reviewsHeader h1 {
-        font-size: 2em;
-    }
-
-    .reviewsHeader h3 {
-        font-size: 1em;
-        padding: 0;
-    }
-
-    .review p {
-        font-size: 1em;
-        padding: 5px 0;
-        border-left: none;
-    }
-
-    .avatar {
-        padding-top: 40px;
-    }
-
-    .social li a i {
-        font-size: 1em;
-        margin: 5px;
-    }
-
-    .menuBorder {
-        width: 100%;
-    }
-
-    .specialBoardText p {
-        font-size: 1.3em;
-        font-weight: 700;
-        padding: 0;
-    }
-
-    .specialImage {
-        width: 100%;
-        margin-bottom: 30px;
-    }
+	.myLogo h1 {
+		font-size: 4em;
+		text-align: center;
+		padding-top: 10px;
+		padding-left: 30px;
+	}
+	.myLogo h2 {
+		font-size: 1em;
+		text-align: center;
+		padding-left: 30px;
+		font-weight: 700;
+	}
+	.headings {
+		text-align: center;
+	}
+	.cafeSlogan p {
+		font-size: 1.2em;
+		font-weight: 700;
+		text-align: center;
+	}
+	.heroImage {
+		height: 250px;
+		background-repeat: no-repeat;
+	}
+	.reviewsHeader h1 {
+		font-size: 2em;
+	}
+	.reviewsHeader h3 {
+		font-size: 1em;
+		padding: 0;
+	}
+	.review p {
+		font-size: 1em;
+		padding: 5px 0;
+		border-left: none;
+	}
+	.avatar {
+		padding-top: 40px;
+	}
+	.social li a i {
+		font-size: 1em;
+		margin: 5px;
+	}
+	.menuBorder {
+		width: 100%;
+	}
+	.specialBoardText p {
+		font-size: 1.3em;
+		font-weight: 700;
+		padding: 0;
+	}
+	.specialImage {
+		width: 100%;
+		margin-bottom: 30px;
+	}
 }
