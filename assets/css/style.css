@@ -43,6 +43,7 @@ body {
     color: #e1ad01;
     font-size: 3em;
     text-align: center;
+    padding-bottom: 30px;
 }
 
 /*---------- Header Image ----------*/
@@ -50,14 +51,18 @@ body {
 #hero {
     padding: 0;
     margin: 0;
+    
 }
 
 .heroImage {
+    background-image: url("../images/two-mugs.jpg");
+    background-size: 100%;
+    background-position: center;
     z-index: -1;
     margin: 0;
     padding: 0;
-    /* width: 100%; */
-    /* height: 60%; */
+    border: 1px solid #e1ad01;
+    height: 600px;
     
 }
 
@@ -84,7 +89,6 @@ body {
 
 .myNavBar {
     padding-top: 50px;
-    /* margin: 0 !important; */
 }
 
 .myNavBar ul li {
@@ -94,6 +98,12 @@ body {
 
 /* .......cafe slogan ...........*/
 
+/* .rePos {
+    position: absolute;
+    top: 800px;
+    
+} */
+
 .cafeSlogan h2 {
     font-family: 'Oswald', sans-serif;
     font-weight: 100;
@@ -101,7 +111,9 @@ body {
     color: #e1ad01;
     padding-top: 20px;
     text-align: center;
-
+    /* position: relative; */
+    /* top: 0; */
+    
 }
 
 /* ...........the sandwich menu .............*/
