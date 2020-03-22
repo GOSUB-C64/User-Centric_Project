@@ -128,7 +128,7 @@ The wireframe for this project is in the wireframes folder of this project.
 
 * On Firefox everything checks out and looks good.
 
-* On Opera in mobile view the main image (the welcome/hero image) is repeating. 
+* On Opera in mobile view the main image (the welcome/hero image) is repeating. **NOT FIXED**
 
 
 # Deployment

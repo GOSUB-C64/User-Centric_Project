@@ -23,11 +23,6 @@ body {
 
 /*---------- Logo ----------*/
 
-.myLogo {
-	/* padding: 0;
-    border: 0; */
-}
-
 .myLogo h1 {
 	font-family: 'Luckiest Guy', sans-serif;
 	color: #e1ad01;
@@ -64,6 +59,7 @@ body {
 	padding: 0;
 	border: 1px solid #e1ad01;
 	height: 600px;
+    
 }
 
 .opacityLayer {
@@ -98,13 +94,6 @@ body {
 
 /* .......cafe slogan ...........*/
 
-
-/* .rePos {
-    position: absolute;
-    top: 800px;
-    
-} */
-
 .cafeSlogan h2 {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 100;
@@ -112,8 +101,6 @@ body {
 	color: #e1ad01;
 	padding-top: 20px;
 	text-align: center;
-	/* position: relative; */
-	/* top: 0; */
 }
 
 
@@ -269,18 +256,8 @@ h5 {
 
 .customerPic {
 	border: 1px solid #e1ad01ef;
-	/* width: 100%; */
-    /* background-position: left; */
     background-repeat: no-repeat;
 }
-
-/* .customerPic2 {
-    background-image: url("../images/man1.jpg");
-    background-repeat:  no-repeat;
-    background-position: top;
-    background-size: 100%;
-    height: 250px;
-} */
 
 .review {
 	background: rgba(225, 173, 1, 0.3);
